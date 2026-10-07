@@ -1,0 +1,25 @@
+{
+  "name": "prova-escola-ti",
+  "version": "1.0.0",
+  "description": "> No momento da aplicação, esta pasta virou o **seu repositório** (contrato, > rubrica e testes públicos estão na raiz). O esqueleto com os workflows de > correção continua aqui, por trás.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Agkso/prova-escola-ti.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Agkso/prova-escola-ti/issues"
+  },
+  "homepage": "https://github.com/Agkso/prova-escola-ti#readme"
+}
