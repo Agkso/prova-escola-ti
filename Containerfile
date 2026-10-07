@@ -41,4 +41,3 @@ COPY src ./src
 EXPOSE 8080
 
 CMD ["node", "src/server.js"]
-FROM scratch
