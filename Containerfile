@@ -28,4 +28,17 @@
 # ---- Java/Spring ----
 # (multi-stage: maven build + jre run — veja o track 02 para inspiracao)
 
+
+FROM node:22-alpine
+
+ENV NODE_ENV=production
+WORKDIR /app
+
+COPY package.json ./
+COPY variante/params.json ./variante/params.json
+COPY src ./src
+
+EXPOSE 8080
+
+CMD ["node", "src/server.js"]
 FROM scratch
