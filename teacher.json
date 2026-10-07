@@ -1,0 +1,53 @@
+{
+  "schema": 1,
+  "repo": "prova-escola-ti",
+  "repo_url": "https://github.com/Agkso/prova-escola-ti",
+  "exam_dir": "exams/2026/track-03-crud",
+  "track": "track-03-crud",
+  "issue": 1,
+  "issue_url": "https://github.com/Agkso/prova-escola-ti/issues/1",
+  "gerado_em": "2026-10-07T23:56:47+00:00",
+  "fechada_em": "2026-10-07T23:56:25Z",
+  "aplicada": true,
+  "motivo": null,
+  "aluno": {
+    "login": "Agkso",
+    "ra": null,
+    "nome": "Augusto Ogawa"
+  },
+  "variante": {
+    "slug": "prova-escola-ti",
+    "EXAM_DIR": "exams/2026/track-03-crud",
+    "PREFIXO": "B",
+    "RAZAO_PREFERENCIAL": 3,
+    "PORTA_API": 9202
+  },
+  "janela": {
+    "minutos": 120,
+    "t0": "2026-10-07T22:27:44Z",
+    "ultimo_push": "2026-10-07T20:36:34-03:00"
+  },
+  "commits": {
+    "total": 11,
+    "autores": [
+      "Augusto Ogawa",
+      "augusto"
+    ],
+    "primeiro": "2026-10-07T19:11:06-03:00",
+    "ultimo": "2026-10-07T20:36:34-03:00",
+    "fora_da_janela": 0
+  },
+  "nota_parcial": {
+    "valor": null,
+    "criterios": {}
+  },
+  "auto_correcao": {
+    "executada": true,
+    "nota_ultima": 0
+  },
+  "fontes": {
+    "presente": true,
+    "declarou_vazio": false,
+    "links": 0
+  }
+}
