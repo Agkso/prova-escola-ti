@@ -29,14 +29,14 @@
 # (multi-stage: maven build + jre run — veja o track 02 para inspiracao)
 
 
-FROM node:22-alpine
+FROM node:20-alpine
 
 ENV NODE_ENV=production
 WORKDIR /app
 
 COPY package.json ./
 COPY variante/params.json ./variante/params.json
-COPY src ./src
+COPY src/ ./src
 
 EXPOSE 8080
 

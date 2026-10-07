@@ -7,8 +7,10 @@
     "doc": "docs",
     "test": "tests"
   },
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/server.js",
+    "test": "node --test test/*.test.js",
   },
   "repository": {
     "type": "git",
@@ -17,7 +19,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "bugs": {
     "url": "https://github.com/Agkso/prova-escola-ti/issues"
   },
